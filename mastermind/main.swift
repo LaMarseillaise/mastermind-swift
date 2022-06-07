@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
-
+print(ConsoleView.introduction())
+while true { ConsoleController.play() }
