@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B60A62E92843FB24001DCE46 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60A62E82843FB24001DCE46 /* main.swift */; };
+		B68D0BC5284EF9C100F1156D /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60A62EF28446A65001DCE46 /* Piece.swift */; };
+		B68D0BC6284EF9C100F1156D /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60A62F128446C16001DCE46 /* Code.swift */; };
+		B68D0BC9284EF9C100F1156D /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60A63012845C355001DCE46 /* Turn.swift */; };
+		B68D0BCA284EF9C100F1156D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60A62F528447981001DCE46 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		B60A62E52843FB24001DCE46 /* mastermind */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mastermind; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60A62E82843FB24001DCE46 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B60A62EF28446A65001DCE46 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		B60A62F128446C16001DCE46 /* Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
+		B60A62F528447981001DCE46 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		B60A63012845C355001DCE46 /* Turn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 		B60A62E72843FB24001DCE46 /* mastermind */ = {
 			isa = PBXGroup;
 			children = (
+				B60A62F128446C16001DCE46 /* Code.swift */,
+				B60A62F528447981001DCE46 /* Game.swift */,
+				B60A62EF28446A65001DCE46 /* Piece.swift */,
+				B60A63012845C355001DCE46 /* Turn.swift */,
 				B60A62E82843FB24001DCE46 /* main.swift */,
 			);
 			path = mastermind;
@@ -120,6 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68D0BCA284EF9C100F1156D /* Game.swift in Sources */,
+				B68D0BC5284EF9C100F1156D /* Piece.swift in Sources */,
+				B68D0BC9284EF9C100F1156D /* Turn.swift in Sources */,
+				B68D0BC6284EF9C100F1156D /* Code.swift in Sources */,
 				B60A62E92843FB24001DCE46 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
