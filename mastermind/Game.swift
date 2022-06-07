@@ -24,6 +24,13 @@ class Game {
         return !hasAttemptsRemaining() || isSolved()
     }
 
+    func winner(codemaker: Player, codebreaker: Player) -> Player? {
+        if isSolved() { return codebreaker }
+        if !hasAttemptsRemaining() { return codemaker }
+
+        return nil
+    }
+
     private func hasAttemptsRemaining() -> Bool {
         return turns.count < Game.maxAttempts
     }
